@@ -6,3 +6,16 @@ h1{
     background-color: black;
     color: white;
 }
+
+#section1{
+    color: red;
+    border: 2px solid brown;
+}
+
+#sec{
+    color: blue;
+}
+
+.menu{
+    color: aquamarine;
+}
