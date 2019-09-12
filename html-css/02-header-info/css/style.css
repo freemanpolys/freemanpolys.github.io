@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+#info{
+    height: 30px;
+    background-color: #404040; 
+}
+#top-menu{
+    height: 74px;
+}
+.border-box{
+    /* border: 1px solid red; */
+}
+.container-box {
+    width: 1170px;
+    margin: auto;
+}
+/* ============== header =========== */
+#info-right, #info-left {
+    height: inherit;
+    width: 49%;
+    display: inline-block;
+    color: white;
+    line-height: 30px;
+}
+#info-right{
+    float: right;
+    text-align: right;
+}
+
+#info-right-link li {
+    display: inline-block;
+    margin-left: 5px;
+}
+#info-right-link ul{
+    margin: 0;
+}
+#info-right-link a{
+    color: white;
+}
+#info-right-link a:hover{
+    color: #5757f4;
+}
