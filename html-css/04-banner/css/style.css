@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+}
+#info{
+    height: 30px;
+    background-color: #404040; 
+}
+#top-menu{
+    height: 74px;
+}
+.border-box{
+    border: 1px solid red;
+}
+.container-box {
+    width: 1170px;
+    margin: auto;
+}
+/* ============== header =========== */
+#info-right, #info-left {
+    height: inherit;
+    width: 49%;
+    display: inline-block;
+    color: white;
+    line-height: 30px;
+}
+#info-right{
+    float: right;
+    text-align: right;
+}
+
+#info-right-link li {
+    display: inline-block;
+    margin-left: 5px;
+}
+#info-right-link ul{
+    margin: 0;
+}
+#info-right-link a{
+    color: white;
+}
+#info-right-link a:hover, #menu a:hover{
+    color: #5757f4;
+}
+#logo {
+    height: 74px;
+    width: 30%;
+}
+#menu {
+    height: 74px;
+    width: 60%;
+    float: right
+}
+.inline-block {
+    display: inline-block;
+}
+.menu-link li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.menu-link a{
+    text-decoration: none; 
+}
+#menu ul{
+    float: right;
+    margin: 0;
+}
+#menu a{
+    color: #9a9595;
+    display: block;
+    height: 74px;
+    line-height: 74px;
+    text-transform: uppercase;
+}
+#top-menu{
+    border-bottom: 1px solid #dddcdc;
+}
+/* ============== fin header =========== */
+/* ========= debut bannière ========= */
+#banner{
+    height: 475px;
+    background-image: url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#banner-content{
+    height: inherit;
+}
+#banner-content #brand{
+    padding-top: 10%;
+}
+
+#brand h1{
+    color: #005FA6;
+    font-size: 42px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.75);
+    font-weight: 700;
+}
+#brand h2{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 0;
+    width: 45%;
+    line-height: 38px;
+}
